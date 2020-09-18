@@ -1,0 +1,46 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.9997170919224875 -0.02230982608543876 -0.008246682853254849 1.174690021721063
+  position -0.2440734987373925 2.2516578682445667 0.8985505859708562
+}
+SignPole {
+  translation -1 0 -0.5
+  height 0.5
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+DEF A4 TurtleBot3Burger {
+  rotation 0.001385074357719537 0.9999966554487548 0.002184184133213058 -2.014344525746959
+  name "4"
+  controller "turtlebot_control_c"
+  supervisor TRUE
+}
+DEF A5 TurtleBot3Burger {
+  translation 0.3 0 0
+  rotation 0.001385074357719537 0.9999966554487548 0.002184184133213058 -2.014344525746959
+  name "5"
+  controller "A5"
+  supervisor TRUE
+}
+DEF A6 TurtleBot3Burger {
+  translation -0.15 0 0.26
+  rotation 0.001385074357719537 0.9999966554487548 0.002184184133213058 -2.014344525746959
+  name "6"
+  controller "A6"
+  supervisor TRUE
+}
+DEF A7 TurtleBot3Burger {
+  translation 0.15 0 0.26
+  rotation 0.001385074357719537 0.9999966554487548 0.002184184133213058 -2.014344525746959
+  name "7"
+  controller "A7"
+  supervisor TRUE
+}
